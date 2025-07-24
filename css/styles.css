@@ -1,0 +1,64 @@
+/* google fonts */
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared styles */
+    /* text color */
+.color-01{
+  color: rgba(0, 0, 0, 1);
+}
+.color-02{
+  color: rgba(0, 0, 0, 0.5);
+}
+.color-03{
+  color: rgba(137, 135, 161, 1);
+}
+.color-04{
+  color: rgba(17, 17, 17, 1);
+}
+.color-05{
+  color: rgba(233, 90, 8, 1);
+}
+/* header section */
+header{
+  /* border: 1px solid tomato; */
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.navbar-logo img{
+  max-width: 70px;
+  height: auto;  
+}
+.navbar-items{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 24px;
+}
+.navbar-items li{
+  list-style: none;
+}
+.nav-links{
+  text-decoration: none;
+}
+.navbar ul>li:nth-child(1) a{
+  color: rgba(37, 36, 50, 1);
+  font-size: 16px;
+  font-weight: 700;
+}
+.navbar ul>li:nth-child(2) a,
+.navbar ul>li:nth-child(3) a,
+.navbar ul>li:nth-child(4) a{
+  font-size: 16;
+  font-weight: 400;
+}
