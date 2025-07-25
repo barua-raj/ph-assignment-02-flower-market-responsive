@@ -29,7 +29,7 @@ body{
 }
 /* header section */
 header{
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -37,7 +37,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-content: center;
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
 }
 .navbar-logo img{
   max-width: 70px;
@@ -71,7 +71,7 @@ header{
   margin-top: 120px;
   justify-content: space-between;
   align-content: center;
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
 }
 .banner-content{
   max-width: 570px;
@@ -91,7 +91,7 @@ header{
 }
 /* our plants section */
 .our-plants{
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 120px;
@@ -147,7 +147,7 @@ header{
 }
 /* flower-and-plants section */
 .flowers-and-plants{
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 210px;
@@ -199,7 +199,7 @@ header{
 }
 /* deals section */
 .deals{
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 134px;
@@ -297,7 +297,7 @@ header{
 }
 /* subscribe section */
 .subscribe{
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   margin: 134px auto 0px auto;
   padding: 200px 305px;
   text-align: center;
@@ -349,7 +349,7 @@ input[type="submit"] {
 }
 /* footer */
 footer{
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 134px;
