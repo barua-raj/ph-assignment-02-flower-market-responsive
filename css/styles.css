@@ -1,3 +1,4 @@
+/* global style */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -44,7 +45,7 @@ header{
   /* border: 1px solid tomato; */
 }
 .navbar-logo img{
-  max-width: 70px;
+  max-width: 100px;
   height: auto;  
 }
 .navbar-items{
@@ -399,6 +400,10 @@ footer{
 /* responsive media query */
 @media screen and (max-width: 776px) {
   /* navbar */
+  .navbar-logo img{
+    max-width: 70px;
+    height: auto;  
+  }
   .navbar-items li:nth-child(1),
   .navbar-items li:nth-child(2),
   .navbar-items li:nth-child(3){
@@ -471,10 +476,10 @@ footer{
     font-weight: 400;
   }
   .flowers-and-plants-content{
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  gap: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 60px;
   }
   .flowers-and-plants-img{
     display: flex;
