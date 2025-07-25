@@ -235,29 +235,28 @@ header{
 .subscribe h1{
   font-size: 3.125rem;
   font-weight: 700;
-  margin-bottom: 23px;
+  margin-bottom: 30px;
   color: #FFFFFF;
 }
 .subscribe-input{
-  /* width: 830px; */
-  height: 50px;
   display: flex;
   justify-content: center;
-  align-content: center;
-  margin: 0 auto;
+  align-items: stretch;
+  gap: 0;
 }
 input[type="email"] {
-  width: 644px;
+  width: 100%;
+  /* max-width: 900px; */
   height: auto;
+  padding: 15px 20px;
   font-size: 1rem;
-  /* padding-left: 20px; */
-  padding: 15px 540px 15px 20px;
+  border: none;
+  outline: none;
 }
 input::placeholder{
   color: rgba(0, 0, 0, 0.5);
   font-size: 1rem;
   font-weight: 400;
-  padding: 20px 0px;
   border: none;
   outline: none;
 }
@@ -265,15 +264,14 @@ input:focus {
   outline: none;
 }
 input[type="submit"] {
-  width: 186px;
-  height: auto;
   background-color: rgba(233, 90, 8, 1);
+  width: 190px;
   color: #FFFFFF;
   font-size: 1rem;
   font-weight: 500;
   border: none;
   cursor: pointer;
-  padding: 15px 40px;
+  padding: 15px 10px;
 }
 /* footer */
 footer{
