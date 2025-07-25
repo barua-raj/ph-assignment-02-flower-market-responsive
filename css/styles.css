@@ -135,12 +135,15 @@ header{
   font-weight: 700;
 }
 .add-cart-button{
-  padding: 15px 70px;
-  font-size: 1rem;
+  padding: 15px 50px;
+  font-size: .90rem;
   font-weight: 600;
   color: #ffffff;
   background-color: rgba(233, 90, 8, 1);
   border: none;
+  cursor: pointer;
+  width: 270px;
+  height: auto;
 }
 /* flower-and-plants section */
 .flowers-and-plants{
@@ -173,6 +176,7 @@ header{
   height: auto;
   object-fit: contain;
   z-index: 10;
+  animation: spin 10s linear infinite;
  }
 .flowers-and-plants-text{
   justify-content: center;
