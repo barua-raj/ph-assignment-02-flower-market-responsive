@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 /* google fonts */
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
@@ -393,7 +397,7 @@ footer{
   height: auto;
 }
 /* responsive media query */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 776px) {
   /* navbar */
   .navbar-items li:nth-child(1),
   .navbar-items li:nth-child(2),
@@ -437,9 +441,17 @@ footer{
     font-weight: 400;
   }
   .our-plants-card{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .our-plants-card-grid img{
+    max-width: 100%;
+    height: auto;
+  }
+  .add-cart-button{
+    width: 100%;
+    box-sizing: border-box;
   }
   /* flowers and plants section */
   .badge{
@@ -457,6 +469,23 @@ footer{
   .flowers-and-plants-text ul>li{
     font-size: 0.875rem;
     font-weight: 400;
+  }
+  .flowers-and-plants-content{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 60px;
+  }
+  .flowers-and-plants-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .flowers-and-plants-img > .main-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
   /* deals section */
   .deals-content h1{
@@ -503,6 +532,7 @@ footer{
     margin: 0 auto;
     background-color: #fff;
     overflow: hidden;
+    box-sizing: border-box;
   }
   input[type="email"] {
     flex: 1;
@@ -512,6 +542,7 @@ footer{
     font-weight: 400;
     border: none;
     outline: none;
+    box-sizing: border-box;
   }
   input[type="submit"] {
     padding: 20px 30px;
@@ -519,6 +550,7 @@ footer{
     font-weight: 700;
     white-space: nowrap;
     width: auto;
+    box-sizing: border-box;
   }
   /* footer */
   .footer-content{
